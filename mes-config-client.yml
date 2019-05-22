@@ -9,10 +9,10 @@ spring:
   application:
     name: config-client
         
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://eureka-dev.com:7001/eureka/
 ---
 server:
     prot: 8202
@@ -24,4 +24,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka-prs.com:7001/eureka/
+      defaultZone: http://eureka-prd.com:7001/eureka/
